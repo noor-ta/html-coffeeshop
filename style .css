@@ -1,0 +1,59 @@
+.nav-link{
+    color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #000000;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title{
+    font-family: Montserrat;
+    font-size: 80px ;
+  }
+
+@media (max-width:1200px) {
+
+     .title{
+    font-family: Montserrat;
+    font-size: 30px ;
+  }
+}
+
+.lead{
+    font-family: Montserrat;
+    color: #000000;
+    font-size: large;
+  }
+
+@media (max-width:1200px) {
+    .lead{
+   font-family: Montserrat;
+   font-size: 30px ;
+   color: #000000;
+ }
+}
+
+.text{
+    font-family:  Montserrat;
+    color: #000000;
+}
+
+.num{
+    color: #9D6D27;
+}
